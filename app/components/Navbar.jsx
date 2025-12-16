@@ -11,7 +11,6 @@ export default function Navbar() {
           alt="Peace Mentorship Logo"
           width={40}
           height={40}
-          className="rounded-md object-contain"
         />
           <span className="text-sm font-semibold tracking-tight text-slate-900">Peace Mentorship</span>
         </Link>
