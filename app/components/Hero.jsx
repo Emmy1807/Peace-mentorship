@@ -27,7 +27,7 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 max-w-4xl mx-auto text-left text-sm text-blue-100/90">
+        {/* <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 max-w-4xl mx-auto text-left text-sm text-blue-100/90">
           <div className="bg-white/5 rounded-xl p-4 border border-white/10">
             <p className="font-semibold text-amber-200">Young adults in discussion</p>
             <p className="mt-1 text-xs text-blue-100/80">
@@ -52,7 +52,7 @@ export default function Hero() {
               Include Peace of God Ministry branding, colors, and subtle cross or dove elements.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

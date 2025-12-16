@@ -4,8 +4,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-100 bg-white/80 backdrop-blur">
       <div className="section-container flex items-center justify-between py-3">
-        <Link href="/" className="text-sm font-semibold tracking-tight text-slate-900">
-          Peace Mentorship
+        <Link href="/" className="flex items-center gap-2">
+          <img
+            src="/logo.png"
+            alt="Peace of God Ministries logo"
+            className="h-8 w-8 rounded-md object-contain bg-[#2257a6]"
+          />
+          <span className="text-sm font-semibold tracking-tight text-slate-900">Peace Mentorship</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-xs font-medium text-slate-600">

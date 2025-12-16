@@ -2,7 +2,7 @@ export default function WhoFor() {
   const profiles = [
     'College students',
     'Graduate & professional students',
-    'Young professionals (18-35)',
+    'Young professionals',
     'Aspiring Christian leaders',
     'Young ministers',
     'Anyone hungry for spiritual & personal growth',
