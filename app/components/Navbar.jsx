@@ -1,15 +1,18 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 border-b border-slate-100 bg-white/80 backdrop-blur">
       <div className="section-container flex items-center justify-between py-3">
         <Link href="/" className="flex items-center gap-2">
-          <img
-            src="/POGOD LOGO BLACK.png"
-            alt="Peace of God Ministries logo"
-            className="h-9 w-9 rounded-md object-contain "
-          />
+        <Image
+          src="/POGOD LOGO BLACK.png"
+          alt="Peace Mentorship Logo"
+          width={40}
+          height={40}
+          className="rounded-md object-contain"
+        />
           <span className="text-sm font-semibold tracking-tight text-slate-900">Peace Mentorship</span>
         </Link>
 
