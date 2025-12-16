@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="section-container flex items-center justify-between py-3">
         <Link href="/" className="flex items-center gap-2">
          <Image
-          src="/logo-black.png"
+          src="/logo.jpg"
           alt="Peace Mentorship Logo"
           width={40}
           height={40}
