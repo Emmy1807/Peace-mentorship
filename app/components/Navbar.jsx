@@ -6,9 +6,14 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 border-b border-slate-100 bg-white/80 backdrop-blur">
       <div className="section-container flex items-center justify-between py-3">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/logo-black.png" alt="" 
-            className="h-9 w-9 rounded-md object-contain"
-          />
+         <Image
+          src="/logo-black.png"
+          alt="Peace Mentorship Logo"
+          width={40}
+          height={40}
+          className="rounded-md object-contain"
+        />
+
           <span className="text-sm font-semibold tracking-tight text-slate-900">Peace Mentorship</span>
         </Link>
 
