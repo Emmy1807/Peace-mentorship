@@ -43,7 +43,7 @@ export default function Results() {
               Apply Now — Limited Spots
             </Link>
             <p className="text-xs text-blue-100/90 self-center">
-              Next Cohort Starts: <span className="font-semibold">[Insert Date]</span>
+              Next Cohort Starts: <span className="font-semibold">[March - August 2026]</span>
             </p>
           </div>
         </div>

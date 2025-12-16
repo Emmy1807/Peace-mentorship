@@ -6,9 +6,9 @@ export default function Navbar() {
       <div className="section-container flex items-center justify-between py-3">
         <Link href="/" className="flex items-center gap-2">
           <img
-            src="/logo.png"
+            src="/POGOD LOGO BLACK.png"
             alt="Peace of God Ministries logo"
-            className="h-8 w-8 rounded-md object-contain bg-[#2257a6]"
+            className="h-9 w-9 rounded-md object-contain "
           />
           <span className="text-sm font-semibold tracking-tight text-slate-900">Peace Mentorship</span>
         </Link>
